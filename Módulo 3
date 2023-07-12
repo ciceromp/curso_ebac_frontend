@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,14 +7,14 @@
 </head>
 <body>
         <h1>Formulário de Cadastro</h1>
-        <label>Nome</label>
-        <input type="text"  />
+        <label for="nome">Nome</label>
+        <input id="nome" type="text"  />
         <br />
-        <label>Email</label>
-        <input type="email" />
+        <label for="email">Email</label>
+        <input id="email" type="email" />
         <br />
-        <label>Senha</label>
-        <input type="text" />
+        <label for="senha">Senha</label>
+        <input id="senha" type="password" />
         <br />
         <button type="submit">
             Cadastrar
