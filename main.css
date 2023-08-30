@@ -1,0 +1,36 @@
+*{
+
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+
+
+div {
+    margin-left: 40%;
+    margin-right: 40%
+}
+
+
+.completa {
+    text-decoration: line-through;
+}
+
+button {
+    padding: 10px ;
+    background-color: rgb(133, 230, 146);
+    cursor: pointer;
+
+}
+
+#Nome-Da-Tarefa {
+    padding: 10px;
+    background-color: azure;
+}
+
+ul li {
+    cursor: pointer;
+}
